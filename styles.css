@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300&family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300&family=Lato:wght@700&family=Montserrat:wght@300&display=swap');
+
+.sidebar{
+    background-color: cornflowerblue;
+    font-family: "Cairo Play",sans-serif;
+    width: 100vw;
+    height: 80vw;
+
+}
+.about{
+    background-color: beige;
+    font-family: "Cairo Play",sans-serif;
+    width: 99vw;
+    font-size: 50px;
+    font-stretch: bold;
+    margin: 0;
+    padding:0;
+}
+.context{
+    text-decoration: none;
+    list-style-type: none;
+    font-family:"lato",sans-serif;
+    font-size: 8px;
+    color: black;
+    text-align:right;
+}
+.context li{
+    display:inline;
+    padding: 1.0rem;
+    font-size: 1.1rem;
+}
+.nav-list li:hover{
+    font-weight: bold;
+}
