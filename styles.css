@@ -15,8 +15,7 @@
     width: 99vw;
     font-size: 50px;
     font-stretch: bold;
-    margin: 0;
-    padding:1rem;
+    padding:0.5rem;
 }
 .context{
     text-decoration: none;
@@ -24,12 +23,14 @@
     font-size: 10px;
     color: black;
     text-align:right;
+    padding: 0.5rem;
+    
     
 }
 .context li{
     font-family:"lato",sans-serif;
     display:inline;
-    padding: 2.0rem;
+    padding: 1.0rem;
     font-size: 1.1rem;
 }
 .nav-list li:hover{
@@ -56,8 +57,15 @@
     font-size: 35px;
     font-stretch: bold;
     text-decoration: none;
-    margin: 0;
-    padding:0;
+}
+.about2{
+    background-color: beige;
+    font-family: "Cairo Play",sans-serif;
+    width: 99vw;
+    font-size: 35px;
+    font-stretch: bold;
+    text-decoration: none;
+    padding:0.3rem;
 }
 .context1{
     text-decoration: none;
@@ -78,8 +86,9 @@
     font-family: "Montserrat",sans-serif;
     font-size:20px;
     padding:2rem;
-    width:50;
-    
+    width:47vw;
+    margin:0.1rem;
+    background-color: cornflowerblue;   
 
 }
 
@@ -95,4 +104,17 @@
     font-family: "Montserrat",sans-serif;
     font-size:20px;
     padding:2rem;
+    width:50vw;
+    background-color: cornflowerblue;
+    margin:0.1rem;
+}
+.container{
+    display:flex;
+}
+.sidebar3{
+    font-family: "Montserrat",sans-serif;
+    font-size:20px;
+    padding:2rem; 
+    background-color: cornflowerblue;
+    margin:0.1rem;
 }
