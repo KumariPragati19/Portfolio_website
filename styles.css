@@ -16,21 +16,83 @@
     font-size: 50px;
     font-stretch: bold;
     margin: 0;
-    padding:0;
+    padding:1rem;
 }
 .context{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 10px;
+    color: black;
+    text-align:right;
+    
+}
+.context li{
+    font-family:"lato",sans-serif;
+    display:inline;
+    padding: 2.0rem;
+    font-size: 1.1rem;
+}
+.nav-list li:hover{
+    font-family:"lato",sans-serif;
+    font-weight: bold;
+}
+.me{
+    font-family: 'Lato',sans-serif;
+    text-align: center;
+    color:beige;
+    font-size: 100px;
+}
+.mee{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    color:beige;
+    font-size: 30px;
+}
+
+.about1{
+    background-color: beige;
+    font-family: "Cairo Play",sans-serif;
+    width: 99vw;
+    font-size: 35px;
+    font-stretch: bold;
+    text-decoration: none;
+    margin: 0;
+    padding:0;
+}
+.context1{
     text-decoration: none;
     list-style-type: none;
     font-family:"lato",sans-serif;
     font-size: 8px;
     color: black;
-    text-align:right;
+    text-align:right; 
+    padding:1rem;
 }
-.context li{
+.context1 li{
+    font-family:"lato",sans-serif;
     display:inline;
-    padding: 1.0rem;
-    font-size: 1.1rem;
+    padding:1rem;
 }
-.nav-list li:hover{
-    font-weight: bold;
+
+.sidebar1{
+    font-family: "Montserrat",sans-serif;
+    font-size:20px;
+    padding:2rem;
+    width:50;
+    
+
+}
+
+.list1{
+    text-decoration: none;
+    list-style-type: none;
+    font-family:"lato",sans-serif;
+    font-size: 20px;
+    color: black;
+
+}
+.sidebar2{
+    font-family: "Montserrat",sans-serif;
+    font-size:20px;
+    padding:2rem;
 }
