@@ -3,15 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300&family=Lato:wght@700&family=Montserrat:wght@300&display=swap');
 
 .sidebar{
-    background-color: cornflowerblue;
+    background-color: rgb(57, 26, 26);
     font-family: "Cairo Play",sans-serif;
     width: 100vw;
     height: 80vw;
 
 }
 .about{
-    background-color: beige;
+    background-color: black;
     font-family: "Cairo Play",sans-serif;
+    color:beige;
     width: 99vw;
     font-size: 50px;
     font-stretch: bold;
@@ -48,24 +49,27 @@
     text-align: center;
     color:beige;
     font-size: 30px;
+    padding:5rem;
 }
 
 .about1{
-    background-color: beige;
+    background-color: black;
     font-family: "Cairo Play",sans-serif;
     width: 99vw;
     font-size: 35px;
-    font-stretch: bold;
-    text-decoration: none;
+    /* font-stretch: bold; */
+    /* text-decoration: none; */
 }
 .about2{
-    background-color: beige;
+    background-color: black;
     font-family: "Cairo Play",sans-serif;
+    color: beige;
     width: 99vw;
-    font-size: 35px;
+    font-size: 80px;
     font-stretch: bold;
     text-decoration: none;
-    padding:0.3rem;
+    text-align: center;
+    
 }
 .context1{
     text-decoration: none;
@@ -80,6 +84,7 @@
     font-family:"lato",sans-serif;
     display:inline;
     padding:1rem;
+    color: beige;
 }
 
 .sidebar1{
@@ -87,8 +92,8 @@
     font-size:20px;
     padding:2rem;
     width:47vw;
-    margin:0.1rem;
-    background-color: cornflowerblue;   
+    margin:0.08rem;
+    background-color: rgb(57, 26, 26);   
 
 }
 
@@ -97,7 +102,7 @@
     list-style-type: none;
     font-family:"lato",sans-serif;
     font-size: 20px;
-    color: black;
+    color: beige;
 
 }
 .sidebar2{
@@ -105,16 +110,49 @@
     font-size:20px;
     padding:2rem;
     width:50vw;
-    background-color: cornflowerblue;
-    margin:0.1rem;
+    background-color: rgb(57, 26, 26);
+    margin:0.08rem;
 }
 .container{
     display:flex;
+    color: beige;
 }
+
 .sidebar3{
     font-family: "Montserrat",sans-serif;
+    color: beige;
     font-size:20px;
     padding:2rem; 
-    background-color: cornflowerblue;
-    margin:0.1rem;
+    background-color: rgb(57, 26, 26);
+    max-width: 1200px;
+    margin:auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
+
+.button {
+  background-color: rgb(84, 37, 37); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+}
+/* .footer{
+    padding: 2rem 1rem;
+    background-color: black;
+    
+    color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+} */
